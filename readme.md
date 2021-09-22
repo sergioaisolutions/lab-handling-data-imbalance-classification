@@ -14,23 +14,23 @@ In this lab, we will first take a look at the degree of imbalance in the data an
 
 Here is the list of steps to be followed (building a simple model without balancing the data):
 
-- Import the required libraries and modules that you would need.
-- Read that data into Python and call the dataframe `churnData`.
-- Check the datatypes of all the columns in the data. You would see that the column `TotalCharges` is object type. Convert this column into numeric type using `pd.to_numeric` function.
-- Check for null values in the dataframe. Replace the null values.
-- Use the following features: `tenure`, `SeniorCitizen`, `MonthlyCharges` and `TotalCharges`:
-  - Scale the features either by using normalizer or a standard scaler.
-  - Split the data into a training set and a test set.
-  - Fit a logistic regression model on the training data.
-  - Check the accuracy on the test data.
+- Import the required libraries and modules that you would need. (DONE)
+- Read that data into Python and call the dataframe `churnData`. (DONE)
+- Check the datatypes of all the columns in the data. You would see that the column `TotalCharges` is object type. Convert this column into numeric type using `pd.to_numeric` function. (DONE)
+- Check for null values in the dataframe. Replace the null values. (DONE)
+- Use the following features: `tenure`, `SeniorCitizen`, `MonthlyCharges` and `TotalCharges` (DONE)
+  - Scale the features either by using normalizer or a standard scaler. (DONE)
+  - Split the data into a training set and a test set. (DONE)
+  - Fit a logistic regression model on the training data. (DONE)
+  - Check the accuracy on the test data. (DONE)
 
 **Note**: So far we have not balanced the data.
 
 Managing imbalance in the dataset
 
-- Check for the imbalance.
-- Use the resampling strategies used in class for upsampling and downsampling to create a balance between the two classes.
-- Each time fit the model and see how the accuracy of the model is.
+- Check for the imbalance. (DONE)
+- Use the resampling strategies used in class for upsampling and downsampling to create a balance between the two classes. (DONE)
+- Each time fit the model and see how the accuracy of the model is. (DONE)
 
 
 
